@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"jsx": "preserve",
+		"sourceMap": true,
+		"importHelpers": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"pretty": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"lib": ["esnext", "dom", "DOM.Iterable", "ScriptHost"],
+		"types": ["vite/client", "vite-plugin-vue-layouts/client", "vite-plugin-pages/client"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}
