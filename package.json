@@ -28,6 +28,7 @@
     },
     "devDependencies": {
         "@tauri-apps/cli": "^1.0.0-beta.6",
+        "@types/tailwindcss": "^2.2.1",
         "@typescript-eslint/eslint-plugin": "^4.30.0",
         "@typescript-eslint/parser": "^4.30.0",
         "@vitejs/plugin-vue": "^1.6.0",

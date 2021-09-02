@@ -5,8 +5,8 @@ import App from './App.vue'
 import uiState from '@/code/ui-state'
 
 router.beforeEach((to, from, next) => {
-	if (!uiState.isLoggedIn.value && to.meta.requiresAuth) next({ name: 'Login' })
-	else next()
+    if (!uiState.isLoggedIn.value && to.meta.requiresAuth) next({ name: 'Login' })
+    else next()
 })
 
 console.log('Routes: ', router.getRoutes())
